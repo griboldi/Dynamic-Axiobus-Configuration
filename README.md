@@ -9,5 +9,7 @@ This project has been developed entirely in IEC 61131 and it contains the functi
 
 Please refer to comment in the project to understand the functioning of the Demo
 
+For the project you need the PLCnext Controller Library that you should has been installed with PLCNext Engineer.
+
 The commands and the procedure for the Axio bus startup comes from C++ GitHub repository Bus Conductor 
 https://github.com/PLCnext/BusConductor
