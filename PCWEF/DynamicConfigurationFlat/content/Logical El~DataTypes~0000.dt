@@ -1,0 +1,45 @@
+TYPE
+    arr_b_0_511 : ARRAY[0..511] OF BYTE;
+END_TYPE
+
+TYPE
+    InitAxioPhases : (  Init,
+                        ResetDriver,
+                        CreateConfiguration,
+                        ReadLocal_IO,
+                        GetNumberOf_IO,
+                        ReadUserConfiguration,
+                        Load_PD_Mapping,
+                        StartDataTransfer,
+                        ReadPhysicalConfiguration,
+                        End
+                        ) OF INT ;
+                        
+    ModulesProperties : (   DeviceFamily,
+                            OrderNumber,
+                            ProductName,
+                            PD_Length
+                            ) OF INT ;
+                            
+    CommandAxio_0_1: ARRAY[0..1] OF WORD;
+    CommandAxio_0_2: ARRAY[0..2] OF WORD;
+    CommandAxio_0_5: ARRAY[0..5] OF WORD;
+    AnswerAxio     : ARRAY[0..100] OF WORD;
+    AnswerPDI_READ : ARRAY[0..79] OF BYTE;
+    
+END_TYPE
+
+TYPE
+    STRING32 : STRING[32];
+    STRING58 : STRING[58];
+    
+    AxioModule : STRUCT
+        DeviceFamily : STRING58; 
+        OrderNumber  : STRING32;
+        ProductName  : STRING32;
+        PD_Length    : UINT; (*In Words*)
+    
+    END_STRUCT;    
+    
+    BusStructure : ARRAY[1..63] OF AxioModule;
+END_TYPE

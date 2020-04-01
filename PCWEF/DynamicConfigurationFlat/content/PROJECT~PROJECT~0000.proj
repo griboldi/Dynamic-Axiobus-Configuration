@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="2.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+   <Import Project="$(AdeProjectTargetsPath)" Condition="'$(AdeProjectTargetsPath)' != ''" />
+   <ItemGroup />
+   <ItemGroup>
+      <CockpitDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\b84580d7-61ea-48ec-9861-abe43adbd376.cockpit">
+         <Id>272fdf4e-9c92-4fe5-bdd2-5167fedc4cad</Id>
+         <Visible>False</Visible>
+         <ParentIndex>6</ParentIndex>
+      </CockpitDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <CodeWorksheet Include="RecycleBin\88fb3d79-46ce-4389-9776-94b5b4c074cf\InitAxio_AutoConfig1.pou\Code.st">
+         <Id>bf5643fb-8fd5-47dd-bf42-9a6237839924</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>2</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="RecycleBin\1a1f3a04-7923-4b87-8f8a-4eae5812c2a8\InitAxio2.pou\Code.st">
+         <Id>314456e0-cbce-420a-a28b-e8e49224e9d9</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>2</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logical Elements\Main.pou\Code.ld">
+         <Id>688e9a05-b9c7-4c64-b452-5d893579a3e3</Id>
+         <Extension>.ld</Extension>
+         <Type>.ld</Type>
+         <ParentIndex>3</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logical Elements\BusStart\InitAxio_AutoConfig.pou\Code.st">
+         <Id>48244324-222d-4bc3-a989-990c8412de4f</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>3</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logical Elements\BusStart\InitAxio.pou\Code.st">
+         <Id>cafefc39-3503-436b-80c6-8aa81b1ac67f</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>3</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logical Elements\PDI_Elab\AnswerToString.pou\Code.ld">
+         <Id>b0baf0fc-4b46-4191-8d6e-d6db8325852b</Id>
+         <Extension>.ld</Extension>
+         <Type>.ld</Type>
+         <ParentIndex>3</ParentIndex>
+      </CodeWorksheet>
+      <CodeWorksheet Include="Logical Elements\PDI_Elab\ReadProperty.pou\Code.st">
+         <Id>71f54432-c732-4302-a9a3-1db9e1d28ca6</Id>
+         <Extension>.st</Extension>
+         <Type>.st</Type>
+         <ParentIndex>3</ParentIndex>
+      </CodeWorksheet>
+   </ItemGroup>
+   <ItemGroup>
+      <ControllerStatisticDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\b84580d7-61ea-48ec-9861-abe43adbd376.statistic">
+         <Id>0ba1f05d-5fa7-4e21-9386-950321312503</Id>
+         <Visible>False</Visible>
+         <ParentIndex>5</ParentIndex>
+      </ControllerStatisticDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <DataList Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\DataList.dl">
+         <Id>2a0cab98-54d9-499e-9ec3-48b1ff6c2d5d</Id>
+         <Visible>false</Visible>
+         <ParentIndex>7</ParentIndex>
+      </DataList>
+   </ItemGroup>
+   <ItemGroup>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PLCnext\DataList.dlr2pl">
+         <Id>c461f925-b7a5-4871-a0be-1c773bc03c3d</Id>
+         <Visible>false</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\RES_829976591E98446682C292813E058D7E\DataList.dlr4var">
+         <Id>ef9fffe7-3da1-4569-8e09-95efef43bff1</Id>
+         <Visible>false</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\EIP_Master\DataList.dlr4pd">
+         <Id>740278eb-e89e-458c-90cc-0e1c67818cac</Id>
+         <Visible>false</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\DataList.dlr4hmi">
+         <Id>a04f0e2b-4fb4-49b1-9dc6-da7898d420de</Id>
+         <Visible>false</Visible>
+         <ParentIndex>0</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\DataList.dlr4pd">
+         <Id>f1fb4339-9227-4f12-bdd5-fc51a8116a82</Id>
+         <Visible>false</Visible>
+         <ParentIndex>6</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\AXLF_Master\AXL_F_physcial\DataList.dlr4pd">
+         <Id>259d58fb-1bae-468a-bc1f-73e517559a89</Id>
+         <Visible>false</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\AXLF_Master\DataList.dlr4pd">
+         <Id>967db78d-633b-4d67-a2cd-3d4d90473d07</Id>
+         <Visible>false</Visible>
+         <ParentIndex>5</ParentIndex>
+      </DataListReference>
+      <DataListReference Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\IB_Master\DataList.dlr4pd">
+         <Id>ecab1b9e-570f-4220-b8f3-03ed84a481fa</Id>
+         <Visible>false</Visible>
+         <ParentIndex>4</ParentIndex>
+      </DataListReference>
+   </ItemGroup>
+   <ItemGroup>
+      <DataTypeWorksheet Include="Logical Elements\GeneratedDataTypes.dt">
+         <Id>b99f51c7-269a-4abc-9fcc-deb1245ac16e</Id>
+         <AutoGenerated>true</AutoGenerated>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </DataTypeWorksheet>
+      <DataTypeWorksheet Include="Logical Elements\DataTypes.dt">
+         <Id>eb989768-9a51-40c2-8e0b-510bd1e5ce48</Id>
+         <ParentIndex>3</ParentIndex>
+      </DataTypeWorksheet>
+   </ItemGroup>
+   <ItemGroup>
+      <DeviceInstanceDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\b84580d7-61ea-48ec-9861-abe43adbd376.ds">
+         <Id>4aa93581-1707-4566-a886-5adcfbc978ae</Id>
+         <Visible>False</Visible>
+         <ParentIndex>4</ParentIndex>
+      </DeviceInstanceDocument>
+      <DeviceInstanceDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\AXLF_Master\AXL_F_physcial\1c4661d2-10ca-4650-b083-963b1bee6704.ds">
+         <Id>8b9e9217-aaee-4d52-b57c-546c22a34ccf</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DeviceInstanceDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <DiscoveryDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\b84580d7-61ea-48ec-9861-abe43adbd376.L7_4.discovery">
+         <Id>102d1fb5-86df-457c-9c8b-63555784ebc4</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </DiscoveryDocument>
+      <DiscoveryDocument Include="Hardware\950d54e3-e87f-4f59-8e36-760d6cb9bdc3.discovery">
+         <Id>ed7292f7-7502-4a7a-ae31-ccc8a475a69b</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </DiscoveryDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <EsmConfiguration Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PLCnext\EsmConfiguration.esmc">
+         <Id>b091a408-2375-40b3-9146-8b1a6dc24251</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </EsmConfiguration>
+   </ItemGroup>
+   <ItemGroup>
+      <Folder Include="References">
+         <Id>e1f1f17a-700b-4d82-b5af-66425b18451f</Id>
+         <FolderType>References</FolderType>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin">
+         <Id>f3a3a749-57ef-45a7-be13-a7d3697b3c57</Id>
+         <FolderType>RecycleBin</FolderType>
+         <LastestItemNo>2</LastestItemNo>
+         <Visible>false</Visible>
+         <ParentIndex>1</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\88fb3d79-46ce-4389-9776-94b5b4c074cf">
+         <Id>a3dc6b80-151b-4cc7-a659-2ce9f93e41df</Id>
+         <FolderType>RecycleBinItem</FolderType>
+         <ItemNo>2</ItemNo>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\88fb3d79-46ce-4389-9776-94b5b4c074cf\InitAxio_AutoConfig1.pou">
+         <Id>88fb3d79-46ce-4389-9776-94b5b4c074cf</Id>
+         <FolderType>PouFolder</FolderType>
+         <Id>88fb3d79-46ce-4389-9776-94b5b4c074cf</Id>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\1a1f3a04-7923-4b87-8f8a-4eae5812c2a8">
+         <Id>a615725b-b6e5-4999-8774-34baff4c7ba1</Id>
+         <FolderType>RecycleBinItem</FolderType>
+         <ItemNo>1</ItemNo>
+         <ParentIndex>1</ParentIndex>
+      </Folder>
+      <Folder Include="RecycleBin\1a1f3a04-7923-4b87-8f8a-4eae5812c2a8\InitAxio2.pou">
+         <Id>1a1f3a04-7923-4b87-8f8a-4eae5812c2a8</Id>
+         <FolderType>PouFolder</FolderType>
+         <Id>1a1f3a04-7923-4b87-8f8a-4eae5812c2a8</Id>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware">
+         <Id>b614ac7b-e691-415d-9ea0-2d9d7a7e1117</Id>
+         <FolderType>Root</FolderType>
+         <ParentIndex>2</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7">
+         <Id>09451df4-5b18-4474-b1bd-c5f625d4c2b7</Id>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>b84580d7-61ea-48ec-9861-abe43adbd376</InstanceId>
+         <TypeId>{7CFA42F3-AEF1-48ED-891A-B9F1BE9452A7}</TypeId>
+         <TypeName>AXC F 2152</TypeName>
+         <TypeRevision>00/2020.0.0</TypeRevision>
+         <FolderType>Configuration</FolderType>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PLCnext">
+         <Id>6f8d358d-ecbb-4b27-9f38-003e983e7622</Id>
+         <IsFixed>true</IsFixed>
+         <InstanceId>b84580d7-61ea-48ec-9861-abe43adbd376.L7_1</InstanceId>
+         <TypeId>L7_1</TypeId>
+         <TypeName>PLCnext</TypeName>
+         <FolderType>CommunicationEntity</FolderType>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\RES_829976591E98446682C292813E058D7E">
+         <Id>82997659-1e98-4466-82c2-92813e058d7e</Id>
+         <UpdateType>Never</UpdateType>
+         <IsFixed>true</IsFixed>
+         <TypeId>L7_2</TypeId>
+         <TypeName>eCLR</TypeName>
+         <FolderType>Resource</FolderType>
+         <ParentIndex>8</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\RES_829976591E98446682C292813E058D7E\System Events">
+         <Id>358c66e6-dca8-4c99-9b24-161b37ea3045</Id>
+         <FolderType>EventConfiguration</FolderType>
+         <ParentIndex>5</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\EIP_Master">
+         <Id>0015b0f9-15d0-47c7-9656-293565040559</Id>
+         <IsFixed>true</IsFixed>
+         <Visible>False</Visible>
+         <InstanceId>b84580d7-61ea-48ec-9861-abe43adbd376.L7_7</InstanceId>
+         <TypeId>L7_7</TypeId>
+         <TypeName>EIP:Master</TypeName>
+         <FolderType>CommunicationEntity</FolderType>
+         <ParentIndex>9</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server">
+         <Id>f99e8720-9c21-44e6-8c61-12fc922be13b</Id>
+         <TypeName>HMI:Server</TypeName>
+         <IsFixed>true</IsFixed>
+         <InstanceId>b84580d7-61ea-48ec-9861-abe43adbd376.L7_3</InstanceId>
+         <TypeId>L7_3</TypeId>
+         <FolderType>HmiServer</FolderType>
+         <ParentIndex>10</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application">
+         <Id>ab4b5c4a-b6c1-4bfc-a19b-3e5b114b1e00</Id>
+         <TypeName>HMI:Application</TypeName>
+         <DisplayName>Application</DisplayName>
+         <FolderType>HmiApplication</FolderType>
+         <ParentIndex>2</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\HMI_Support">
+         <Id>9b96e601-70e9-4d7c-acee-e777ef3eeb2f</Id>
+         <DisplayName>Support</DisplayName>
+         <TypeName>HMI:Support</TypeName>
+         <IsFixed>true</IsFixed>
+         <FolderType>HmiSupportFolder</FolderType>
+         <ParentIndex>3</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\OPCUA">
+         <Id>4ad85d57-c617-4e4d-a2ee-1ccf678483c3</Id>
+         <IsFixed>true</IsFixed>
+         <InstanceId>b84580d7-61ea-48ec-9861-abe43adbd376.L7_5</InstanceId>
+         <TypeId>L7_5</TypeId>
+         <TypeName>OPCUA</TypeName>
+         <FolderType>CommunicationEntity</FolderType>
+         <ParentIndex>11</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master">
+         <Id>6d57c723-ab45-40d4-8d57-afb6b2fe2db1</Id>
+         <IsFixed>true</IsFixed>
+         <InstanceId>b84580d7-61ea-48ec-9861-abe43adbd376.L7_4</InstanceId>
+         <TypeId>L7_4</TypeId>
+         <TypeName>PN:Master</TypeName>
+         <FolderType>CommunicationEntity</FolderType>
+         <ParentIndex>12</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\AXLF_Master">
+         <Id>f95333cd-3e17-45a1-8080-0c015cde3bde</Id>
+         <IsFixed>true</IsFixed>
+         <InstanceId>b84580d7-61ea-48ec-9861-abe43adbd376.L7_ax</InstanceId>
+         <TypeId>L7_ax</TypeId>
+         <TypeName>AXLF:Master</TypeName>
+         <Visible>true</Visible>
+         <FolderType>CommunicationEntity</FolderType>
+         <ParentIndex>13</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\AXLF_Master\AXL_F_physcial">
+         <Id>d964ad3c-72b0-455c-b3d0-8566bf3c9be2</Id>
+         <FolderType>DeviceInstance</FolderType>
+         <AllowReordering>true</AllowReordering>
+         <InstanceId>1c4661d2-10ca-4650-b083-963b1bee6704</InstanceId>
+         <TypeId>{7E7CDCAA-6C0A-423B-BFD9-DDCC707536BF}</TypeId>
+         <TypeName>AXL F physcial</TypeName>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\IB_Master">
+         <Id>ea1557b2-3ed9-4efb-89df-2230ada03c15</Id>
+         <IsFixed>true</IsFixed>
+         <InstanceId>b84580d7-61ea-48ec-9861-abe43adbd376.L7_8</InstanceId>
+         <TypeId>L7_8</TypeId>
+         <TypeName>IB:Master</TypeName>
+         <Visible>false</Visible>
+         <FolderType>CommunicationEntity</FolderType>
+         <ParentIndex>14</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements">
+         <Id>d31eab2b-b1a0-4c93-bdaf-090bc38c49f4</Id>
+         <FolderType>Root</FolderType>
+         <ParentIndex>3</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\Main.pou">
+         <Id>111dd1e0-8977-404a-b4bf-24eeb8c05c76</Id>
+         <FolderType>PouFolder</FolderType>
+         <Id>111dd1e0-8977-404a-b4bf-24eeb8c05c76</Id>
+         <ParentIndex>2</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\BusStart">
+         <Id>3ba1e121-ae23-4892-ae55-d5ad5c5aac39</Id>
+         <FolderType></FolderType>
+         <TypeCategories>Programming;FunctionsAndFunctionBlocks</TypeCategories>
+         <ParentIndex>4</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\BusStart\InitAxio_AutoConfig.pou">
+         <Id>ccf8606a-356a-42e6-afe4-e7bdc2ff1d9e</Id>
+         <FolderType>PouFolder</FolderType>
+         <Id>ccf8606a-356a-42e6-afe4-e7bdc2ff1d9e</Id>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\BusStart\InitAxio.pou">
+         <Id>183170e1-31ff-452f-b0c6-2c318eb1c40e</Id>
+         <FolderType>PouFolder</FolderType>
+         <Id>183170e1-31ff-452f-b0c6-2c318eb1c40e</Id>
+         <ParentIndex>1</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\PDI_Elab">
+         <Id>b5b06dd9-0adc-4fc2-a410-f734d6abdc80</Id>
+         <FolderType></FolderType>
+         <TypeCategories>Programming;FunctionsAndFunctionBlocks</TypeCategories>
+         <ParentIndex>5</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\PDI_Elab\AnswerToString.pou">
+         <Id>bd60a193-4c0b-4282-821e-79749d76ebe5</Id>
+         <FolderType>PouFolder</FolderType>
+         <Id>bd60a193-4c0b-4282-821e-79749d76ebe5</Id>
+         <ParentIndex>0</ParentIndex>
+      </Folder>
+      <Folder Include="Logical Elements\PDI_Elab\ReadProperty.pou">
+         <Id>1ad8fddf-9c6b-48c2-8c3a-9aa57a46a110</Id>
+         <FolderType>PouFolder</FolderType>
+         <Id>1ad8fddf-9c6b-48c2-8c3a-9aa57a46a110</Id>
+         <ParentIndex>1</ParentIndex>
+      </Folder>
+   </ItemGroup>
+   <ItemGroup>
+      <HmiNavigation Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Navigation.hminav">
+         <Id>3486df71-2989-466d-a89e-e46aa85bc08a</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </HmiNavigation>
+   </ItemGroup>
+   <ItemGroup>
+      <HmiProfiles Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Profiles.hmiprofiles">
+         <Id>4175a185-1e97-4268-b02f-ecccc5698500</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </HmiProfiles>
+   </ItemGroup>
+   <ItemGroup>
+      <HmiVariables Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\Application\Variables.hmivar">
+         <Id>fbccdbb3-69f2-4676-ac05-28b10c1a9a3c</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </HmiVariables>
+   </ItemGroup>
+   <ItemGroup>
+      <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\b84580d7-61ea-48ec-9861-abe43adbd376.iprop">
+         <Id>f903f749-03dc-4e96-8d6e-9493709c320e</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\RES_829976591E98446682C292813E058D7E\ResourceProperties.iprop">
+         <Id>1bcd2241-5096-420b-88c0-9a420a9960ad</Id>
+         <Visible>false</Visible>
+         <ParentIndex>7</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\HMI_Server\HmiServerProperties.iprop">
+         <Id>693272d2-3013-4680-9b95-b0cb05f48739</Id>
+         <Visible>false</Visible>
+         <ParentIndex>1</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\b84580d7-61ea-48ec-9861-abe43adbd376.L7_4.iprop">
+         <Id>3081bc0a-7ae7-4d3d-a0d7-59b9a28c690d</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\AXLF_Master\AXL_F_physcial\1c4661d2-10ca-4650-b083-963b1bee6704.iprop">
+         <Id>d0b02a76-97af-4a98-8562-e80eabec7039</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\AXLF_Master\b84580d7-61ea-48ec-9861-abe43adbd376.L7_ax.iprop">
+         <Id>a87ca1a5-ec61-4d58-8eba-856ffd286d7e</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </InstancePropertiesDocument>
+      <InstancePropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\IB_Master\b84580d7-61ea-48ec-9861-abe43adbd376.L7_8.iprop">
+         <Id>44a12cd2-35db-433c-a77a-9e54301712d8</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </InstancePropertiesDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <InterfaceListDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\b84580d7-61ea-48ec-9861-abe43adbd376.L7_4.interfacelst">
+         <Id>7972bee0-0687-456c-9c17-5a681b21d7ca</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </InterfaceListDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <IoConfigurationWorksheet Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\RES_829976591E98446682C292813E058D7E\IOConfiguration.ioc">
+         <Id>4ffb41f4-be5d-48f4-a17d-dc8f5965e17b</Id>
+         <ParentIndex>3</ParentIndex>
+      </IoConfigurationWorksheet>
+   </ItemGroup>
+   <ItemGroup>
+      <MetaComponent Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\RES_829976591E98446682C292813E058D7E\EclrComponent.compmeta">
+         <Id>616cb4de-bbe2-4452-9e11-d19bba0a62a9</Id>
+         <Visible>False</Visible>
+         <Name>EclrComponent</Name>
+         <ParentIndex>0</ParentIndex>
+      </MetaComponent>
+      <MetaComponent Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\EIP_Master\ControllerComponent.compmeta">
+         <Id>6ca452fc-df47-4f2e-b919-5d604cc315c9</Id>
+         <Visible>False</Visible>
+         <Name>ControllerComponent</Name>
+         <ParentIndex>0</ParentIndex>
+      </MetaComponent>
+      <MetaComponent Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\ControllerComponent.compmeta">
+         <Id>0c470a7c-75c2-4b59-bfe5-4a7083be2a3c</Id>
+         <Visible>False</Visible>
+         <Name>ControllerComponent</Name>
+         <ParentIndex>4</ParentIndex>
+      </MetaComponent>
+      <MetaComponent Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\AXLF_Master\Arp.Io.Axl.ControllerComponent.compmeta">
+         <Id>3ce53ecf-d799-4905-90d3-bb8e54524b32</Id>
+         <Visible>False</Visible>
+         <Name>Arp.Io.Axl.ControllerComponent</Name>
+         <ParentIndex>3</ParentIndex>
+      </MetaComponent>
+      <MetaComponent Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\IB_Master\Arp.Io.Ib.ControllerComponent.compmeta">
+         <Id>2eb197d3-db53-41c1-b522-a5e2e2e5e4de</Id>
+         <Visible>False</Visible>
+         <Name>Arp.Io.Ib.ControllerComponent</Name>
+         <ParentIndex>2</ParentIndex>
+      </MetaComponent>
+   </ItemGroup>
+   <ItemGroup>
+      <MetadataDocument Include="RecycleBin\88fb3d79-46ce-4389-9776-94b5b4c074cf\InitAxio_AutoConfig1.pou\Metadata.meta">
+         <Id>5aebccf6-eb6c-490b-9518-df3e5316ecad</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>0</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="RecycleBin\1a1f3a04-7923-4b87-8f8a-4eae5812c2a8\InitAxio2.pou\Metadata.meta">
+         <Id>d270d63a-a473-483a-b75c-b0f4bee2b8eb</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>0</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="Logical Elements\Main.pou\Metadata.meta">
+         <Id>f7b82640-74d8-4755-8691-16166db24300</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>0</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="Logical Elements\BusStart\InitAxio_AutoConfig.pou\Metadata.meta">
+         <Id>1e9a5a7d-25b9-46d9-b692-e72b324d1159</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>0</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="Logical Elements\BusStart\InitAxio.pou\Metadata.meta">
+         <Id>165601ac-98d1-454b-9e0c-f6c6441c2fd1</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>0</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="Logical Elements\PDI_Elab\AnswerToString.pou\Metadata.meta">
+         <Id>3778d9c4-359b-4bc1-a463-1cb05916201b</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>0</ParentIndex>
+      </MetadataDocument>
+      <MetadataDocument Include="Logical Elements\PDI_Elab\ReadProperty.pou\Metadata.meta">
+         <Id>ff0272f9-3138-4ca8-a38b-7a0d3104d473</Id>
+         <Extension>.meta</Extension>
+         <ParentIndex>0</ParentIndex>
+      </MetadataDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <MetaLibrary Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\RES_829976591E98446682C292813E058D7E\Arp.Plc.Eclr.libmeta">
+         <Id>bbd0c711-c3a2-46bb-b441-07327df8b10c</Id>
+         <Visible>False</Visible>
+         <Namespace>Arp.Plc.Eclr</Namespace>
+         <Name>Arp.Plc.Eclr</Name>
+         <ApplicationDomain />
+         <ParentIndex>1</ParentIndex>
+      </MetaLibrary>
+      <MetaLibrary Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\EIP_Master\Arp.Io.EthernetIP.libmeta">
+         <Id>d0e041e4-0882-4f66-95c3-4248758e07f6</Id>
+         <Visible>False</Visible>
+         <Namespace>Arp.Io.EthernetIP</Namespace>
+         <Name>Arp.Io.EthernetIP</Name>
+         <ApplicationDomain />
+         <ParentIndex>1</ParentIndex>
+      </MetaLibrary>
+      <MetaLibrary Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\Arp.Io.Pn.libmeta">
+         <Id>86eb01dd-4d79-44c8-b691-b76fcf38fc0a</Id>
+         <Visible>False</Visible>
+         <Namespace>Arp.Io.Pn</Namespace>
+         <Name>Arp.Io.Pn</Name>
+         <ApplicationDomain />
+         <ParentIndex>5</ParentIndex>
+      </MetaLibrary>
+      <MetaLibrary Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\AXLF_Master\Arp.Io.Axl.libmeta">
+         <Id>b79b0743-f587-4402-b141-c3ff7b94b368</Id>
+         <Visible>False</Visible>
+         <Namespace>Arp.Io.Axl</Namespace>
+         <Name>Arp.Io.Axl</Name>
+         <ApplicationDomain />
+         <ParentIndex>4</ParentIndex>
+      </MetaLibrary>
+      <MetaLibrary Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\IB_Master\Arp.Io.Ib.libmeta">
+         <Id>367cea6b-616b-42f1-9e45-17d1d129e09d</Id>
+         <Visible>False</Visible>
+         <Namespace>Arp.Io.Ib</Namespace>
+         <Name>Arp.Io.Ib</Name>
+         <ApplicationDomain />
+         <ParentIndex>3</ParentIndex>
+      </MetaLibrary>
+   </ItemGroup>
+   <ItemGroup>
+      <NetworkDocument Include="Hardware\950d54e3-e87f-4f59-8e36-760d6cb9bdc3.Transport">
+         <Id>ccf73400-579c-499c-b20e-8e8215cab40f</Id>
+         <Visible>False</Visible>
+         <ParentIndex>3</ParentIndex>
+      </NetworkDocument>
+      <NetworkDocument Include="Hardware\950d54e3-e87f-4f59-8e36-760d6cb9bdc3.DataLink">
+         <Id>183780f6-a6ac-467a-b947-2ca677596faf</Id>
+         <Visible>False</Visible>
+         <ParentIndex>4</ParentIndex>
+      </NetworkDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <None Include="Logical Elements\CRC32.crc">
+         <Id>63fd0ec1-c1d1-4dcd-927d-9f5cfcfc77ef</Id>
+         <ParentIndex>0</ParentIndex>
+      </None>
+   </ItemGroup>
+   <ItemGroup>
+      <OPCUASettingsDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\OPCUA\b84580d7-61ea-48ec-9861-abe43adbd376.L7_5.opcua">
+         <Id>0c69fdf6-fdd4-4008-a8e1-3d31fffdd46c</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </OPCUASettingsDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <PlcNextParameterDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PLCnext\b84580d7-61ea-48ec-9861-abe43adbd376.L7_1.plcnextpar">
+         <Id>a9af8728-d9ad-40ad-bf50-76a2d652d565</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </PlcNextParameterDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <PlmConfiguration Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PlmConfiguration.plmc">
+         <Id>d9fb660f-e32a-40ce-a1f9-017fe5c5d72c</Id>
+         <Visible>True</Visible>
+         <ParentIndex>3</ParentIndex>
+      </PlmConfiguration>
+   </ItemGroup>
+   <ItemGroup>
+      <PropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\b84580d7-61ea-48ec-9861-abe43adbd376.properties">
+         <Id>37917af1-3834-4ab0-91fa-82f0f8001601</Id>
+         <Visible>False</Visible>
+         <ParentIndex>2</ParentIndex>
+      </PropertiesDocument>
+      <PropertiesDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\AXLF_Master\AXL_F_physcial\1c4661d2-10ca-4650-b083-963b1bee6704.properties">
+         <Id>9d1ded02-8ff0-4dc9-a4f0-c41359ddea27</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </PropertiesDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <ResourceSettings Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\RES_829976591E98446682C292813E058D7E\ResourceSettings.set">
+         <Id>2ee2505a-2d5b-4c3c-8438-6533dc77210f</Id>
+         <DisplayName>Task Configuration</DisplayName>
+         <ParentIndex>4</ParentIndex>
+      </ResourceSettings>
+   </ItemGroup>
+   <ItemGroup>
+      <RestoreDocument Include="RecycleBin\88fb3d79-46ce-4389-9776-94b5b4c074cf\88fb3d79-46ce-4389-9776-94b5b4c074cf">
+         <Id>c35cfeb4-54cc-4c01-9129-2f897e91a9f3</Id>
+         <ParentIndex>1</ParentIndex>
+      </RestoreDocument>
+      <RestoreDocument Include="RecycleBin\1a1f3a04-7923-4b87-8f8a-4eae5812c2a8\1a1f3a04-7923-4b87-8f8a-4eae5812c2a8">
+         <Id>a55e4496-6c7a-47ad-9367-9970e7d6f4b4</Id>
+         <ParentIndex>1</ParentIndex>
+      </RestoreDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <SolutionReference Include="PLCnext Controller">
+         <Id>f03304e6-74af-4f35-bd52-e302cb6caea4</Id>
+         <HintPath>$(SystemLibrariesPath)\PLCnext Controller.pcwlx</HintPath>
+         <LibraryId>6bdddd6e-fe52-4478-94e4-617f2ff7e643</LibraryId>
+         <ParentIndex>0</ParentIndex>
+      </SolutionReference>
+   </ItemGroup>
+   <ItemGroup>
+      <StationDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\PN_Master\b84580d7-61ea-48ec-9861-abe43adbd376.L7_4.station">
+         <Id>5e9a345f-09b2-40b7-93b6-f7ee278a26d1</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </StationDocument>
+      <StationDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\AXLF_Master\b84580d7-61ea-48ec-9861-abe43adbd376.L7_ax.station">
+         <Id>264c8827-a55c-472d-bc6a-1b6b8bea552d</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </StationDocument>
+      <StationDocument Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\IB_Master\b84580d7-61ea-48ec-9861-abe43adbd376.L7_8.station">
+         <Id>6105a3af-bb9c-4a3b-a286-e430e36d2122</Id>
+         <Visible>False</Visible>
+         <ParentIndex>0</ParentIndex>
+      </StationDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <TransportDeviceListDocument Include="Hardware\950d54e3-e87f-4f59-8e36-760d6cb9bdc3.transportdevlst">
+         <Id>b68776bd-9be9-4ab0-964a-cd397b207dae</Id>
+         <Visible>False</Visible>
+         <ParentIndex>1</ParentIndex>
+      </TransportDeviceListDocument>
+   </ItemGroup>
+   <ItemGroup>
+      <UserMetadata Include="RecycleBin\88fb3d79-46ce-4389-9776-94b5b4c074cf\InitAxio_AutoConfig1.pou\VersionHistory.usermeta">
+         <Id>45a3da15-5368-449e-99b1-741214e0a26b</Id>
+         <ParentIndex>3</ParentIndex>
+      </UserMetadata>
+      <UserMetadata Include="RecycleBin\1a1f3a04-7923-4b87-8f8a-4eae5812c2a8\InitAxio2.pou\VersionHistory.usermeta">
+         <Id>57cfe6d8-7cb1-4e99-8968-605a8d1d022e</Id>
+         <ParentIndex>3</ParentIndex>
+      </UserMetadata>
+      <UserMetadata Include="Hardware\VersionHistory.usermeta">
+         <Id>c79c51e8-38f3-46a1-b33f-b740487ba7c3</Id>
+         <ParentIndex>5</ParentIndex>
+      </UserMetadata>
+      <UserMetadata Include="Logical Elements\Main.pou\VersionHistory.usermeta">
+         <Id>369f9924-d3f4-4892-aa26-8505bbde4a60</Id>
+         <ParentIndex>2</ParentIndex>
+      </UserMetadata>
+      <UserMetadata Include="Logical Elements\BusStart\InitAxio_AutoConfig.pou\VersionHistory.usermeta">
+         <Id>60613ba6-45c6-4107-8786-bbd7bc2af144</Id>
+         <ParentIndex>2</ParentIndex>
+      </UserMetadata>
+      <UserMetadata Include="Logical Elements\BusStart\InitAxio.pou\VersionHistory.usermeta">
+         <Id>52a691ed-6657-4869-8fd0-edc1f7e1bec9</Id>
+         <ParentIndex>2</ParentIndex>
+      </UserMetadata>
+      <UserMetadata Include="Logical Elements\PDI_Elab\AnswerToString.pou\VersionHistory.usermeta">
+         <Id>4f8a594c-c4e9-4a0d-afdf-056e927b935f</Id>
+         <ParentIndex>2</ParentIndex>
+      </UserMetadata>
+      <UserMetadata Include="Logical Elements\PDI_Elab\ReadProperty.pou\VersionHistory.usermeta">
+         <Id>62bb8004-67f9-4f07-962c-f4de834d2afa</Id>
+         <ParentIndex>2</ParentIndex>
+      </UserMetadata>
+   </ItemGroup>
+   <ItemGroup>
+      <VariableWorksheet Include="RecycleBin\88fb3d79-46ce-4389-9776-94b5b4c074cf\InitAxio_AutoConfig1.pou\Variables.var">
+         <Id>f5bc4c12-5bcd-4153-883b-26dc0e015522</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>1</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="RecycleBin\1a1f3a04-7923-4b87-8f8a-4eae5812c2a8\InitAxio2.pou\Variables.var">
+         <Id>a2274a9a-d9bf-45e0-ab09-13b1d4cf85f0</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>1</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="Hardware\CFG_09451DF45B184474B1BDC5F625D4C2B7\RES_829976591E98446682C292813E058D7E\GlobalVariables.var">
+         <Id>9c176e32-8058-4821-b2cd-c43fbd816f75</Id>
+         <IsVarConfig>true</IsVarConfig>
+         <Visible>false</Visible>
+         <ParentIndex>6</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="Logical Elements\Main.pou\Variables.var">
+         <Id>636d89b0-7ba0-4319-9d6a-96667a399f6d</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>1</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="Logical Elements\BusStart\InitAxio_AutoConfig.pou\Variables.var">
+         <Id>61707f02-37eb-4a72-8bde-ef4cdcd05282</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>1</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="Logical Elements\BusStart\InitAxio.pou\Variables.var">
+         <Id>0123ffaf-9e31-4f49-932b-794d5f54f58f</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>1</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="Logical Elements\PDI_Elab\AnswerToString.pou\Variables.var">
+         <Id>24944c00-e3d4-4f7b-b664-ddc9f569fff0</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>1</ParentIndex>
+      </VariableWorksheet>
+      <VariableWorksheet Include="Logical Elements\PDI_Elab\ReadProperty.pou\Variables.var">
+         <Id>5faadafd-8a46-4919-9d70-58feaaf1cc78</Id>
+         <Extension>.var</Extension>
+         <ParentIndex>1</ParentIndex>
+      </VariableWorksheet>
+   </ItemGroup>
+   <PropertyGroup>
+      <ProjectId>5370a173-31a3-4247-9887-8407f3470dce</ProjectId>
+      <AdeProductVersion>1.4.14.0</AdeProductVersion>
+      <AdeSafetyVersion>1.0.0.1</AdeSafetyVersion>
+      <HmiSchemaRevision>3</HmiSchemaRevision>
+      <SafetyId>ad7763b3-4b69-408a-a6f1-3835c08382b0</SafetyId>
+   </PropertyGroup>
+</Project>

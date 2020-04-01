@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RestoreDataItem Version="1" DeletionDate="2020-03-27 12:07:17Z" DisplayName="InitAxio_AutoConfig1">
+    <NodeData DomainId="e639c0f9-db09-46f4-abf7-50216a13f220" SolutionId="606e2993-1c57-411c-b0d2-c57a13c52bbf" NodeId="88fb3d79-46ce-4389-9776-94b5b4c074cf" ParentId="3ba1e121-ae23-4892-ae55-d5ad5c5aac39" PredecessorId="183170e1-31ff-452f-b0c6-2c318eb1c40e" Position="2" Kind="Type" />
+</RestoreDataItem>
