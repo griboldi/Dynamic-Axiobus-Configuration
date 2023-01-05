@@ -66,7 +66,7 @@ CASE Phase OF
         END_IF;
         
         ModulesProperties#OrderNumber:
-        ReadProperty_OrderNumber(wIndex := word#16#0007, iSlot := i);
+        ReadProperty_OrderNumber(wIndex := word#16#000A, iSlot := i);
         IF ReadProperty_OrderNumber.xRead
             THEN
             arrDetectedModules[i].OrderNumber := CONCAT('', ReadProperty_OrderNumber.strProperty);
@@ -74,7 +74,7 @@ CASE Phase OF
         END_IF;
         
         ModulesProperties#ProductName:
-        ReadProperty_ProductName(wIndex := word#16#000A, iSlot := i);
+        ReadProperty_ProductName(wIndex := word#16#0007, iSlot := i);
         IF ReadProperty_ProductName.xRead
             THEN
             arrDetectedModules[i].ProductName := CONCAT('', ReadProperty_ProductName.strProperty);
