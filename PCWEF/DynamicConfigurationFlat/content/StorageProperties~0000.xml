@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Properties>
     <Title>DynamicConfiguration</Title>
-    <Identifier>0977ff90-1b4d-42a1-9b45-f44a0a80d9eb</Identifier>
+    <Identifier>a38cb9dc-bbe2-48bb-8667-eab7f664e6c2</Identifier>
     <Type>Project</Type>
     <Requirements>
         <Item>Areas</Item>
@@ -9,7 +9,7 @@
     <AdditionalProperties>
         <Property Key="Application" Value="PLCnext Engineer" />
         <Property Key="SubType" Value="" />
-        <Property Key="ApplicationVersion" Value="4.0.266.0" />
-        <Property Key="ProductVersion" Value="2020.0" />
+        <Property Key="ApplicationVersion" Value="7.0.290.0" />
+        <Property Key="ProductVersion" Value="2024.0" />
     </AdditionalProperties>
 </Properties>

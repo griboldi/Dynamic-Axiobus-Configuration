@@ -2,7 +2,7 @@
 <MetaConfigurationDocument xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.0" xmlns="http://www.phoenixcontact.com/schema/metaconfig">
   <Library name="Arp.Io.Ib" namespace="Arp.Io.Ib">
     <ComponentIncludes>
-      <Include path="Arp.Io.Ib.ControllerComponent.compmeta" />
+      <Include path="ControllerComponent.compmeta" />
     </ComponentIncludes>
   </Library>
 </MetaConfigurationDocument>

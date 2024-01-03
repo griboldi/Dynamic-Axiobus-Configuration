@@ -5,20 +5,20 @@ RESOURCE PLC
     Name := 'RES_829976591E98446682C292813E058D7E',
     Parent := ( Name := 'AXCF2152', Version := '2020.0.0'), 
     UpdateType := 'Manual',
-    FilesIni := 
-    [
-    ],
-    CommunicationMetadata := 'UniqueId=TCP/IP;IsBackup=False',
+    CommunicationParameters := 'DLL socomm.dll -ip192.168.1.10 -p41100 -to2000',
     DeviceDescription := 
     (
         MaxProgramSize := '8388608',
-        MaxDataSize := '16777208',
+        MaxDataSize := '33554424',
         MaxRetainDataSize := '0',
         MaxTaskPriority := '96',
         Endianness := 'LittleEndian'
     ),
+    CommunicationMetadata := 'UniqueId=TCP/IP;IsBackup=False',
+    FilesIni := 
+    [
+    ],
     CommunicationType := 'TcpIp',
-    CommunicationParameters := 'DLL socomm.dll -ip192.168.1.10 -p41100 -to2000',
     DownloadFiles := 
     [
     ]

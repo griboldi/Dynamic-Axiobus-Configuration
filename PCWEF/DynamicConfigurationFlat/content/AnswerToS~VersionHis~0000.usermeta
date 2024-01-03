@@ -6,5 +6,8 @@
          <dc:title></dc:title>
       </dcec>
       <revTable />
+      <DescriptionCollection>
+         <Description relativePath=".\Description.html" format="HTML" />
+      </DescriptionCollection>
    </UserMetadata>
 </UserMetadataDoc>
