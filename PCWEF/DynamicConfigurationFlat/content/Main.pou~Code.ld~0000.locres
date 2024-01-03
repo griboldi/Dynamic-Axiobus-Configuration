@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourcesDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NextResourceID>106</NextResourceID>
+  <Languages ID="0" Name="Default" />
+  <Resources ID="100" Name="10">
+    <Values LanguageID="0" LocalValue="Use this array to get the Input Process Datas" />
+  </Resources>
+  <Resources ID="101" Name="11">
+    <Values LanguageID="0" LocalValue="Use this array to write the Output Process Datas" />
+  </Resources>
+  <Resources ID="102" Name="12">
+    <Values LanguageID="0" LocalValue="Look at the Process data length of every module to handle with these arrays&#xD;&#xA;Please, notice that Axioline Modules has the same  process data length for Input and Outups" />
+  </Resources>
+  <Resources ID="103" Name="35">
+    <Values LanguageID="0" LocalValue="Simply starts the axio Bus" />
+  </Resources>
+  <Resources ID="104" Name="36">
+    <Values LanguageID="0" LocalValue="Starts the bus and gives the modules list" />
+  </Resources>
+  <Resources ID="105" Name="37">
+    <Values LanguageID="0" LocalValue="You can easily compare the list with the desired configuration ;)" />
+  </Resources>
+</ResourcesDocument>

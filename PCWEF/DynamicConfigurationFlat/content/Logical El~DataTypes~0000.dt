@@ -12,6 +12,8 @@ TYPE
                         Load_PD_Mapping,
                         StartDataTransfer,
                         ReadPhysicalConfiguration,
+                        StartBus,
+                        NoModules,
                         End
                         ) OF INT ;
                         

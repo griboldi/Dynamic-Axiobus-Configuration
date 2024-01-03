@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Metadata>
+   <Id>bd60a193-4c0b-4282-821e-79749d76ebe5</Id>
+   <FolderType>PouFolder</FolderType>
    <ContentType>FunctionBlock</ContentType>
    <Kind>FunctionBlock</Kind>
-   <Id>bd60a193-4c0b-4282-821e-79749d76ebe5</Id>
    <ItemGroup>
       <VariableWorksheet>
          <Id>24944c00-e3d4-4f7b-b664-ddc9f569fff0</Id>
@@ -14,4 +15,5 @@
          <ParentIndex>0</ParentIndex>
       </CodeWorksheet>
    </ItemGroup>
+   <Usings />
 </Metadata>
