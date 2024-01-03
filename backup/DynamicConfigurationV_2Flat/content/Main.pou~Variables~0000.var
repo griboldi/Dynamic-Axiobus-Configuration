@@ -1,0 +1,19 @@
+{ CustomGroupDefinition('a2cc90a1-1a64-4128-933f-0393c904083a', '') }
+
+VAR
+    xStart : BOOL { CustomGroupReference('a2cc90a1-1a64-4128-933f-0393c904083a') } {Id('03de69d2-be63-4491-bb31-9ed11997e68d')};
+END_VAR
+
+VAR_GLOBAL
+    AX_Inputs : PND_IO_512 { CustomGroupReference('a2cc90a1-1a64-4128-933f-0393c904083a'), InputPort } {Id('399ca66c-21c8-4711-8f8c-c539e7206fd5')};
+    AX_Outputs : PND_IO_512 { CustomGroupReference('a2cc90a1-1a64-4128-933f-0393c904083a'), OutputPort } {Id('20b25381-d871-423e-bca6-25e5825aeacb')};
+END_VAR
+
+VAR
+    InitAxio_AutoConfig1 : InitAxio_AutoConfig { CustomGroupReference('a2cc90a1-1a64-4128-933f-0393c904083a') } {Id('1d813be5-c4fe-46ab-b460-5635d8084b50')};
+    arrDetectedModules : BusStructure { CustomGroupReference('a2cc90a1-1a64-4128-933f-0393c904083a') } {Id('9709fb9c-7f60-4cda-bfa2-e2bd880153ac')};
+    InitAxio2 : InitAxio { CustomGroupReference('a2cc90a1-1a64-4128-933f-0393c904083a') } {Id('0c45d94f-8835-4d3b-af12-1e866f45918c')};
+    xStart1 : BOOL { CustomGroupReference('a2cc90a1-1a64-4128-933f-0393c904083a') } {Id('ca6a0c07-7e83-48f0-a108-6d0624b1a6f1')};
+    OutputVariables : PND_IO_512 { CustomGroupReference('a2cc90a1-1a64-4128-933f-0393c904083a') } {Id('487dc42c-728d-4d51-bf2c-dbc2b54abdd0')};
+    InputVariables : PND_IO_512 { CustomGroupReference('a2cc90a1-1a64-4128-933f-0393c904083a') } {Id('cde6853e-acfa-43f7-9241-83d01c21fb2c')};
+END_VAR

@@ -1,0 +1,32 @@
+{ Type('AXCF2152') }
+RESOURCE PLC
+{ DeviceProfileWorksheet('DeviceProfile', Id := '75a3653b-cddb-43e0-89d2-a59c1dc12831') }
+{ DeviceProfile(
+    Name := 'RES_829976591E98446682C292813E058D7E',
+    Parent := ( Name := 'AXCF2152', Version := '2020.0.0'), 
+    UpdateType := 'Manual',
+    FilesIni := 
+    [
+    ],
+    CommunicationMetadata := 'UniqueId=TCP/IP;IsBackup=False',
+    DeviceDescription := 
+    (
+        MaxProgramSize := '8388608',
+        MaxDataSize := '33554424',
+        MaxRetainDataSize := '0',
+        MaxTaskPriority := '96',
+        Endianness := 'LittleEndian'
+    ),
+    CommunicationType := 'TcpIp',
+    CommunicationParameters := 'DLL socomm.dll -ip192.168.1.10 -p41100 -to2000',
+    DownloadFiles := 
+    [
+    ]
+)}
+
+
+TASK Cyclic100 (INTERVAL := T#100ms, PRIORITY := 0) { Watchdog(T#100ms), Id('aaca64e1-c03a-47aa-a0ee-5db62ab33ed6') };
+
+PROGRAM MainInstance WITH Cyclic100 : Main { Id('5a4da879-8343-4f8a-88da-ecf9afe03785') };
+
+END_RESOURCE
